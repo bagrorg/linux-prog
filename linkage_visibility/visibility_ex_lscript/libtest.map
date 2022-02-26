@@ -1,0 +1,15 @@
+LIBTEST {
+    global:
+        _ZN9TestClassC1ENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE;
+        _ZN9TestClassC1EOS_;
+        _ZN9TestClassD2Ev;
+        _ZN9TestClassaSEOS_;
+        _ZN9TestClassD1Ev;
+        _ZNK9TestClass16something_publicEv;
+        _ZN9TestClassC2EOS_;
+
+
+    local:
+        *;
+
+};
