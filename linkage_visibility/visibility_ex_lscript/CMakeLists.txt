@@ -13,4 +13,4 @@ set_property(TARGET test APPEND_STRING PROPERTY LINK_FLAGS " -Wl,--version-scrip
 
 
 add_executable(main main.cpp)
-target_link_libraries(main test)        # private/public?
+target_link_libraries(main test)  
